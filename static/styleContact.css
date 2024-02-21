@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is contact form styling */
+H1 {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 800px; */
+    /* background: url('/static/bg1.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    color: aliceblue;
+    font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    /* padding-bottom: 500px; */
+    /* column-gap: 23px; */
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    padding-top: 50px;
+}
+
+.myInput {
+    height: 50px;
+    width: 900px;
+    /* column-gap: 30px; */
+    /* display:flex; */
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    border-radius: 23px;
+    opacity: 0.8;
+}
+
+.myForm {
+    padding-bottom: 900px;
+    background: url('/static/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 34px;
+    /* height: 450px; */
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    /* background-color: red; */
+    border-radius: 10px;
+}

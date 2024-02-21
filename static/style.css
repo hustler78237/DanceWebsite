@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navbar */
+/* logo */
+nav#navbar ul div#logo img {
+  width: 68px;
+  height: 60px;
+  /* display: none; */
+  border-radius: 1000px;
+  margin: 9px;
+  /* shape-image-threshold: ; */
+  position: relative;
+  /* transition:all 0.5s ease-in-out; */
+  /* transform: rotate(360deg); */
+  animation-name: logo1;
+  animation-duration: 10s;
+  animation-timing-function: ease-out;
+  /* animation-delay: 3s; */
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* navbar space  */
+nav#navbar ul {
+  display: flex;
+  /* justify-content: center; */
+  background-color: black;
+  position: sticky;
+}
+
+/* navbar list styling */
+nav#navbar ul li {
+  list-style: none;
+  padding: 23px;
+  /* margin: 34px; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  /* color: black; */
+  /* text-decoration: none; */
+}
+
+nav#navbar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* Interface of website */
+section#introSection {
+  height: 900px;
+  /* background-color: red; */
+  background: url('/static/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+
+section#introSection div {
+  justify-content: center;
+  color: azure;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+  /* padding: 250px; */
+  align-items: center;
+  /* align-content: center; */
+  display: flex;
+  /* padding-top: 98px; */
+  /* column-gap: 30px; */
+  /* flex: 0 0 120px; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translateX(-50%) translateY(-50%); */
+  /* margin-top: 34px; */
+  padding-top: 34px;
+}
+
+/* section#introSection div.small{ */
+/* padding: 240px; */
+/* font-weight: bold; */
+/* padding-bottom: 45px; */
+/* } */
+/* sponsers */
+section#sponsorsSection {
+  height: 250px;
+  background-color: rgb(14, 14, 14);
+  opacity: 0.9;
+}
+
+section#sponsorsSection h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: beige;
+  font-size: 2rem;
+  padding-top: 23px;
+}
+section#sponsorsSection img.spimages{
+  height: 120px;
+  max-width: 100px;
+  margin:50px 170px;
+  /* align-items: center; */
+}
+/* Footer of our Website */
+footer#footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 12px;
+}
+
+/* services */
+section#missionSection {
+  height: 500px;
+  background-color: rgb(14, 14, 14);
+  opacity: 0.9;
+  /* display: flex; */
+}
+
+section#missionSection h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: beige;
+  font-size: 2rem;
+  padding-top: 23px;
+}
+
+section#missionSection div.services div.card {
+  color: beige;
+  box-sizing: border-box;
+  border: 2px solid white;
+  height: 300px;
+  width: 30%;
+  /* display: flex; */
+}
+
+section#missionSection div.services {
+  display: flex;
+  margin: 23px;
+  padding: 23px;
+  /* width: 30%; */
+  gap: 34px;
+}
+
+/* content in our mission box */
+section#missionSection div.services div.card h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 12px;
+}
+
+section#missionSection div.services div.card div.card-box div.card-content {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section#missionSection div.services div.card div.card-box div.card-img {
+  /* width: 45px; */
+  height: 190px;
+  padding: 0 14px;
+  margin: 20px 9px;
+}
+section#missionSection div.services div.card div.card-box div.card-img img{
+  height: inherit;
+  display: block;
+  margin: auto;
+}
+/* our Home destop css is completed */
+/* our contact form css is started */

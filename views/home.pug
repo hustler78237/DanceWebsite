@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index1.js')
+
+block style
+  style 
+    include ../static/style.css
+
+block content 
+  section#introSection 
+     div Welcome to Rohit's Dance Academy 
+     div Eat Sleep Dance Repeat 
+  section#missionSection 
+    h2 Our Mission
+    div.services
+     div.card
+        h3 Dance Perfection
+        div.card-box
+            div.card-img
+                img(src="../static/bg2.jpg")
+            div.card-content
+                p Perfection in our blood
+     div.card
+        h3 Dance the way you like
+        div.card-box
+            div.card-img
+                img(src="../static/bg3.jpg")
+            div.card-content
+                p We apericiate the unique style of Dancing
+     div.card
+        h3 Expert Teaching
+        div.card-box
+            div.card-img
+                img(src="../static/bg4.jpg")
+            div.card-content
+                p Our teaching facility is best
+  section#sponsorsSection 
+     h2 Our Sponsors
+     img(src="/static/sp1.png", alt="sponsers image", class="spimages")
+     img(src="/static/sp3.jpg", alt="sponsers image", class="spimages")
+     img(src="/static/sp4.jpg", alt="sponsers image", class="spimages")
+     img(src="/static/sp5.png", alt="sponsers image", class="spimages")   

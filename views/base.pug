@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Rohit's Dance Academy
+    block scripts
+    block style
+  body
+    header 
+     nav#navbar
+      ul 
+       div#logo 
+        img(src="../static/logo.jpg")
+       li #[a(href="/") Home]
+       li #[a(href="/") Services]
+       li #[a(href="/") About us]
+       li #[a(href="/contact") Contact us]
+    block content
+    footer#footer
+      | Copyright@2024Rohit's Dance Academy.com| All rights reserved   
